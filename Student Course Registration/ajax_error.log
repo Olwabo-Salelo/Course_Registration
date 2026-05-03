@@ -1,0 +1,90 @@
+[01-May-2026 09:07:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-2' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:70
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(70): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 70
+[01-May-2026 09:07:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-2' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:70
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(70): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 70
+[01-May-2026 09:48:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-1' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:70
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(70): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 70
+[01-May-2026 09:49:02 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-1' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:70
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(70): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 70
+[01-May-2026 09:58:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`student_course`.`registrationrequest`, CONSTRAINT `registrationrequest_ibfk_2` FOREIGN KEY (`course_id`) REFERENCES `course` (`course_id`) ON DELETE CASCADE) in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:66
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(66): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 66
+[01-May-2026 10:00:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-1' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:66
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(66): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 66
+[01-May-2026 10:02:05 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-9' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:70
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(70): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 70
+[01-May-2026 10:07:01 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '1-1' for key 'unique_request' in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:66
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(66): mysqli_query(Object(mysqli), 'INSERT INTO Reg...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 66
+[01-May-2026 10:12:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:166
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(166): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 166
+[01-May-2026 10:12:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:166
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(166): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 166
+[01-May-2026 10:12:41 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:166
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(166): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 166
+[01-May-2026 10:21:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:166
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(166): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 166
+[01-May-2026 10:23:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:196
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(196): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 196
+[01-May-2026 10:23:44 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:196
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(196): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 196
+[01-May-2026 10:23:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:196
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(196): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 196
+[01-May-2026 10:23:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:196
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(196): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 196
+[01-May-2026 10:23:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:196
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(196): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 196
+[01-May-2026 10:24:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'course_id' in field list is ambiguous in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php:196
+Stack trace:
+#0 C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php(196): mysqli_query(Object(mysqli), 'SELECT c.course...')
+#1 {main}
+  thrown in C:\Users\User\Documents\Software Engineering\Student Course Registration\student_dashboard.php on line 196
