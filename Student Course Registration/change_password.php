@@ -14,7 +14,7 @@ if (!$conn) {
 $error = "";
 $success = "";
 $user_id = $_SESSION['user_id'];
-
+//the code bellow allows accessing and performing functions to the database byt authorised users
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $current_password = $_POST['current_password'];
     $new_password = $_POST['new_password'];
