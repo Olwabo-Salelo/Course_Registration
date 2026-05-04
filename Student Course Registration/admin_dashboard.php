@@ -25,7 +25,7 @@ if ($admin_query && mysqli_num_rows($admin_query) > 0) {
     $admin_id = mysqli_insert_id($conn);
     if (!$admin_id) die("Admin record could not be created.");
 }
-
+//This function helps send an otp email to the Lecturer currently logged to verify the action
 function sendLecturerEmail($toEmail, $fullName, $staffId, $plainPassword) {
     $mail = new PHPMailer(true);
     try {
