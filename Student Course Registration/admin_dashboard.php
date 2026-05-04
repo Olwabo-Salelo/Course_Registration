@@ -971,7 +971,7 @@ $msg_type = $_GET['type'] ?? '';
 </div>
         </div>
 
-        
+     <!--The fnction bellow is for editting the timetable-->   
        <div id="timetablePanel" class="admin-panel">
     <div style="display: flex; justify-content: space-between; margin-bottom: 1rem;">
         <h3><i class="fas fa-calendar-week"></i> Timetable</h3>
