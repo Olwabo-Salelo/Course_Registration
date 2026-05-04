@@ -5,7 +5,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
     header("Location: login.php");
     exit;
 }
-
+//$conn is a connection string used to connect to a databse named student_course
 $conn = mysqli_connect("localhost", "root", "", "student_course");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
